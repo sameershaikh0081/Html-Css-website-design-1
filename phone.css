@@ -1,0 +1,36 @@
+#nav-bar{
+
+}
+#nav-bar #logo{
+    margin: auto;
+}
+#home{
+
+}
+#services .box{
+    width: 300px;
+    flex-direction: column;
+    margin: 50px auto;
+}
+#services .box img{
+    
+}
+#services .box .box-info{
+    padding-left: 0;
+    text-align: center;
+    align-self: center;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+}
+.client-item{
+    padding: 25px;
+    margin: 0px;
+}
+.services-container{
+
+}
+.client-section{
+
+}

@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar-height:59px;
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#nav-bar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+}
+#logo{
+    margin: 10px 54px;
+}
+#logo img{
+    height: 60px;
+    margin: 3px 6px;
+    cursor: pointer;
+    border: 1.8px solid blue;
+    border-radius: 28px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    top: 0px;
+}
+#home::before{
+    content: "";
+    top: 0px;
+    background: url(img/bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.h-primary{
+    font-size: 2.6rem;
+    padding: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Bree Serif', serif;
+}
+.btn{
+    padding: 10px 20px;
+    margin: 20px ;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(117, 13, 13);
+    border: 2px solid rgb(184, 178, 178);
+    color: rgb(212, 204, 204);
+}
+.center{
+    text-align: center;
+}
+.h-secondary{
+    font-size: 2.6rem;
+    font-family: 'Bree Serif', serif;
+    padding: 12px;
+}
+#services{
+    margin: 35px;
+    /* display: flex; */
+}
+#services .box{
+    
+    display: flex;
+    margin: 50px 20px;
+
+}
+#services .box img{
+    height: 300px;
+    width: 300px;
+    
+}
+#services .box-info{
+    padding-left: 170px;
+    text-align: center;
+    align-self: center;
+}
+.services-container{
+    margin-top: 130px;
+}
+.box-info p{
+    font-family: 'Bree Serif', serif;
+}
+.box1{
+    display: flex;
+}
+.box1 img{
+    width: 300px;
+    height: 300px;
+}
+.box2{
+    display: flex;
+}
+.box2 img{
+    width: 300px;
+    height: 300px;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+    margin: 40px 0px;
+}
+.client-item img{
+    height: 95px;
+}
+.co{
+    margin-top: 70px;
+}
+#contact-box{
+    margin: 45px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-box form{
+    width: 80%;
+}
+.form-group{
+    padding: 5px;
+    margin: 0px auto;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+}
+.form-group label{
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+}
+.form-group input{
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+}
+.center{
+    text-align: center;
+    
+}
+footer div span{
+    font-weight: bold;
+}
+footer .con .fo{
+    font-size: 20px;
+    padding-top: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+/* footer div{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: blueviolet;
+    height: 70px;
+    text-align: center;
+    margin: auto;
+} */
+.footer-col ul a img{
+    width: 50px;
+    padding: 30px 20px;
+}
+footer .con .row .footer-col{
+    font-family: 'Raleway', sans-serif;
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin: 35px 0px 0px 0px;
+    
+}
+footer-col{
+    text-align: center;
+}
+.con{
+    margin: 90px 0px 0px 0px;
+    background: url(img/bg.jpg) no-repeat center center/cover;
+}
